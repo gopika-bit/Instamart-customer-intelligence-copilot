@@ -1,0 +1,186 @@
+{
+  "zero_shot": {
+    "tickets_total": 164,
+    "classified_json": 135,
+    "classified_keyword": 12,
+    "flagged_invalid_output": 9,
+    "skipped_empty": 4,
+    "flagged_long": 4,
+    "budget_exhausted": 0,
+    "classified": 147,
+    "accuracy": 0.8571428571428571,
+    "tokens_total": 11428,
+    "tokens_per_classified": 77.74149659863946,
+    "redactions": {
+      "emails": 55,
+      "phones": 91,
+      "order_ids": 132
+    },
+    "redactions_total": 278,
+    "retries": 19,
+    "confusion": {
+      "billing": {
+        "billing": 38,
+        "delivery": 0,
+        "fraud": 11,
+        "technical": 10
+      },
+      "delivery": {
+        "billing": 0,
+        "delivery": 36,
+        "fraud": 0,
+        "technical": 0
+      },
+      "fraud": {
+        "billing": 0,
+        "delivery": 0,
+        "fraud": 23,
+        "technical": 0
+      },
+      "technical": {
+        "billing": 0,
+        "delivery": 0,
+        "fraud": 0,
+        "technical": 29
+      }
+    }
+  },
+  "few_shot": {
+    "tickets_total": 164,
+    "classified_json": 135,
+    "classified_keyword": 12,
+    "flagged_invalid_output": 9,
+    "skipped_empty": 4,
+    "flagged_long": 4,
+    "budget_exhausted": 0,
+    "classified": 147,
+    "accuracy": 1.0,
+    "tokens_total": 15484,
+    "tokens_per_classified": 105.33333333333333,
+    "redactions": {
+      "emails": 55,
+      "phones": 91,
+      "order_ids": 132
+    },
+    "redactions_total": 278,
+    "retries": 19,
+    "confusion": {
+      "billing": {
+        "billing": 38,
+        "delivery": 0,
+        "fraud": 0,
+        "technical": 0
+      },
+      "delivery": {
+        "billing": 0,
+        "delivery": 36,
+        "fraud": 0,
+        "technical": 0
+      },
+      "fraud": {
+        "billing": 0,
+        "delivery": 0,
+        "fraud": 34,
+        "technical": 0
+      },
+      "technical": {
+        "billing": 0,
+        "delivery": 0,
+        "fraud": 0,
+        "technical": 39
+      }
+    }
+  },
+  "budget_demo": {
+    "tickets_total": 164,
+    "classified_json": 60,
+    "classified_keyword": 5,
+    "flagged_invalid_output": 4,
+    "skipped_empty": 4,
+    "flagged_long": 4,
+    "budget_exhausted": 87,
+    "classified": 65,
+    "accuracy": 0.8461538461538461,
+    "tokens_total": 5052,
+    "tokens_per_classified": 77.72307692307692,
+    "redactions": {
+      "emails": 55,
+      "phones": 91,
+      "order_ids": 132
+    },
+    "redactions_total": 278,
+    "retries": 8,
+    "confusion": {
+      "billing": {
+        "billing": 18,
+        "delivery": 0,
+        "fraud": 7,
+        "technical": 3
+      },
+      "delivery": {
+        "billing": 0,
+        "delivery": 12,
+        "fraud": 0,
+        "technical": 0
+      },
+      "fraud": {
+        "billing": 0,
+        "delivery": 0,
+        "fraud": 10,
+        "technical": 0
+      },
+      "technical": {
+        "billing": 0,
+        "delivery": 0,
+        "fraud": 0,
+        "technical": 15
+      }
+    }
+  },
+  "final_few_shot": {
+    "tickets_total": 164,
+    "classified_json": 135,
+    "classified_keyword": 12,
+    "flagged_invalid_output": 9,
+    "skipped_empty": 4,
+    "flagged_long": 4,
+    "budget_exhausted": 0,
+    "classified": 147,
+    "accuracy": 1.0,
+    "tokens_total": 15484,
+    "tokens_per_classified": 105.33333333333333,
+    "redactions": {
+      "emails": 55,
+      "phones": 91,
+      "order_ids": 132
+    },
+    "redactions_total": 278,
+    "retries": 19,
+    "confusion": {
+      "billing": {
+        "billing": 38,
+        "delivery": 0,
+        "fraud": 0,
+        "technical": 0
+      },
+      "delivery": {
+        "billing": 0,
+        "delivery": 36,
+        "fraud": 0,
+        "technical": 0
+      },
+      "fraud": {
+        "billing": 0,
+        "delivery": 0,
+        "fraud": 34,
+        "technical": 0
+      },
+      "technical": {
+        "billing": 0,
+        "delivery": 0,
+        "fraud": 0,
+        "technical": 39
+      }
+    }
+  }
+}

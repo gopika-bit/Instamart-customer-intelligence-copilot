@@ -1,0 +1,191 @@
+{
+  "rf_best_params": {
+    "model__max_depth": 8,
+    "model__min_samples_leaf": 10
+  },
+  "rf_cv_f1": 0.6810534884225208,
+  "rf_test": {
+    "confusion_matrix": [
+      [
+        113,
+        30
+      ],
+      [
+        31,
+        58
+      ]
+    ],
+    "precision": 0.6590909090909091,
+    "recall": 0.651685393258427,
+    "f1": 0.655367231638418,
+    "accuracy": 0.7370689655172413
+  },
+  "log_best_params": {
+    "model__C": 100
+  },
+  "log_cv_f1": 0.650552962900789,
+  "log_test": {
+    "confusion_matrix": [
+      [
+        111,
+        32
+      ],
+      [
+        31,
+        58
+      ]
+    ],
+    "precision": 0.6444444444444445,
+    "recall": 0.651685393258427,
+    "f1": 0.6480446927374302,
+    "accuracy": 0.728448275862069
+  },
+  "rf_top_features": [
+    {
+      "feature": "num__frequency",
+      "importance": 0.2796033879678987
+    },
+    {
+      "feature": "num__monetary",
+      "importance": 0.27122322915534913
+    },
+    {
+      "feature": "num__recency",
+      "importance": 0.11524057262015824
+    },
+    {
+      "feature": "num__avg_delivery",
+      "importance": 0.06120442299223157
+    },
+    {
+      "feature": "num__cancellation_rate",
+      "importance": 0.05246606007263124
+    }
+  ],
+  "logistic_coefficient_signs": [
+    {
+      "feature": "num__recency",
+      "coefficient": 0.03916798970490244,
+      "sign": "positive"
+    },
+    {
+      "feature": "num__frequency",
+      "coefficient": -1.6973307258551027,
+      "sign": "negative"
+    },
+    {
+      "feature": "num__monetary",
+      "coefficient": 0.2834253530663775,
+      "sign": "positive"
+    }
+  ],
+  "rf_best_test_f1": 0.655367231638418,
+  "rf_best_test_predictions_match_reload": true,
+  "rfm_summary": {
+    "customers": 1175,
+    "recency_median": 19.0,
+    "recency_min": 0,
+    "recency_max": 180,
+    "frequency_mean": 9.45531914893617,
+    "frequency_max": 33,
+    "monetary_mean": 2552.0585531914894,
+    "monetary_max": 14766.55
+  },
+  "baseline_accuracy": 0.6163793103448276,
+  "baseline_lapsed_f1": 0.0,
+  "balanced_log_test": {
+    "confusion_matrix": [
+      [
+        90,
+        53
+      ],
+      [
+        13,
+        76
+      ]
+    ],
+    "precision": 0.5891472868217055,
+    "recall": 0.8539325842696629,
+    "f1": 0.6972477064220184,
+    "accuracy": 0.7155172413793104
+  },
+  "cohort_n": 1156,
+  "lapsed_n": 443,
+  "train_n": 924,
+  "test_n": 232,
+  "scaler_train_frequency_mean": 8.114718614718615,
+  "full_cohort_frequency_mean": 8.028546712802768,
+  "pca_explained_variance_ratio": [
+    0.6342787496047422,
+    0.21803761714547434
+  ],
+  "segment_profiles": [
+    {
+      "segment_id": 0,
+      "size": 436,
+      "mean_recency": 28.862385321100916,
+      "mean_frequency": 3.772935779816514,
+      "mean_monetary": 1057.618233944954
+    },
+    {
+      "segment_id": 1,
+      "size": 138,
+      "mean_recency": 24.115942028985508,
+      "mean_frequency": 6.768115942028985,
+      "mean_monetary": 7129.695652173913
+    },
+    {
+      "segment_id": 2,
+      "size": 419,
+      "mean_recency": 8.766109785202865,
+      "mean_frequency": 19.403341288782816,
+      "mean_monetary": 3410.020525059666
+    },
+    {
+      "segment_id": 3,
+      "size": 182,
+      "mean_recency": 109.04395604395604,
+      "mean_frequency": 2.2032967032967035,
+      "mean_monetary": 685.9925824175824
+    }
+  ],
+  "kmeans_metrics": [
+    {
+      "K": 2,
+      "inertia": 1820.7605530118512,
+      "silhouette": 0.4649718051476151
+    },
+    {
+      "K": 3,
+      "inertia": 1268.234587068762,
+      "silhouette": 0.4451611905197954
+    },
+    {
+      "K": 4,
+      "inertia": 743.0711078443474,
+      "silhouette": 0.5255443348818724
+    },
+    {
+      "K": 5,
+      "inertia": 617.3666358544997,
+      "silhouette": 0.48049500840771253
+    },
+    {
+      "K": 6,
+      "inertia": 503.1706222581653,
+      "silhouette": 0.4818721636138158
+    },
+    {
+      "K": 7,
+      "inertia": 408.4604544194091,
+      "silhouette": 0.4163373417690264
+    },
+    {
+      "K": 8,
+      "inertia": 366.5034865531685,
+      "silhouette": 0.4123290612695322
+    }
+  ],
+  "premium_segment_id": 1,
+  "retention_list_true_lapsed": 1
+}
